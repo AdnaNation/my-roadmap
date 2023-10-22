@@ -51,6 +51,7 @@ button{
         display: flex;
        margin: 100px;
        padding: 100px;
+       background-color: #FFF;
     }
 
   .dp img{
@@ -101,6 +102,41 @@ button{
     
 .my-plans{
     display: flex;
-    margin: 40px;
+    margin: 40px 40px 0px 40px;
     padding: 100px;
+    background-color: #FFF;
+}
+section .title{
+    margin-left: 800px;
+    
+}
+.my-plans img{
+    width: 70px;
+    height: 70px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+.plan{
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    
+}
+.planning{
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+#suggestion{
+    width: 1140px;
+    height: 300px;
+    margin-left: 150px;
+    margin-right: 230px;
+    border-radius: 8px;
+    background: url(../images/watch.png);
 }
