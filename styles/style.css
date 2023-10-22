@@ -47,7 +47,7 @@ button{
 } 
 
     /* main part */
-    section{
+    main{
         display: flex;
        margin: 100px;
        padding: 100px;
@@ -58,11 +58,11 @@ button{
         height: 700px;
     }
     .profile{
-        padding: 150px 450px 100px 0px;
+        padding: 100px 450px 100px 0px;
        text-align: left;
 
     }
-    .profile-title{
+    .title{
         color: var(--Dark-01, #151414);
         font-family: Work Sans;
         font-size: 40px;
@@ -97,4 +97,10 @@ button{
        margin: 0%;
        padding-right: 15px;
     }
+    /* section styles */
     
+.my-plans{
+    display: flex;
+    margin: 40px;
+    padding: 100px;
+}
