@@ -102,12 +102,12 @@ button{
     
 .my-plans{
     display: flex;
-    margin: 40px 40px 0px 40px;
+    margin: 20px;
     padding: 100px;
     background-color: #FFF;
 }
 section .title{
-    margin-left: 800px;
+    margin-left: 700px;
     
 }
 .my-plans img{
@@ -143,10 +143,104 @@ section .title{
 #suggestion{
     background-image: url(../images/watch.png), url(../images/gradient1.png);
     background-repeat: no-repeat;
-    background-blend-mode:hard-light;
+    background-blend-mode:color-dodge;
     width: 1100px;
     height: 300px;
-    margin-left: 200px;
+    margin-left: 230px;
     margin-right: 230px;
-    border-radius: 8px;
+    margin-bottom: 130px;
+    border-radius: 8px;}
+#the-suggest{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+    padding-top: 60px;
+    padding-left: 60px;
+    margin-bottom: 20px;
 }
+#suggestion button{
+    margin-left: 100px;
+    width: 140px;
+}
+/* footer styles */
+footer{
+    background-color: #151414;
+    width: 1600px;
+    height: 577px;
+}
+#footer{
+    display: flex;
+    gap: 10px;
+    padding-top: 130px;
+    padding-left: 150px;
+    }
+
+#title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    
+   
+}
+#title-description{
+color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+width: 485px;
+margin-bottom: 24px;
+}
+.contact{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+#icon{
+    display: flex;
+    margin-left: 35px;
+}
+#icon img{
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+   
+}
+.email{
+    width: 325px;
+   height: 64px;
+   margin-bottom: 16px;
+   background-color: #151414;
+   color: var(--Dark-07, #F3F3F3);
+   font-size: 18px;
+   font-weight: 400;
+   
+   }
+ .subscribe{
+   width: 170px;
+   height: 64px;
+   color: #FFF;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   border-radius: 8px;
+   background-color: #005FAC;
+   }
+   #form-title{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 40px;
+    margin-bottom: 30px;
+   }
+   .the-end{
+    text-align: center;
+    color: aqua;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 100px;
+   }
