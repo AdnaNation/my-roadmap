@@ -132,11 +132,21 @@ section .title{
     font-weight: 500;
     
 }
-#suggestion{
-    width: 1140px;
+#suggestion img{
+    background: url(../images/watch.png);
+    width: 1100px;
     height: 300px;
-    margin-left: 150px;
+    margin-left: 200px;
     margin-right: 230px;
     border-radius: 8px;
-    background: url(../images/watch.png);
+}
+#suggestion{
+    background-image: url(../images/watch.png), url(../images/gradient1.png);
+    background-repeat: no-repeat;
+    background-blend-mode:hard-light;
+    width: 1100px;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 230px;
+    border-radius: 8px;
 }
